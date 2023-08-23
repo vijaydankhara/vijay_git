@@ -1,21 +1,5 @@
-// wp. for vottinf elegebal or not elegebal
-
+// w.p 1 to 10 sum
 #include <iostream>
 using namespace std;
 int main()
 {
-    int a;
-
-    cin >> a ;
-   
-    if(a>18)
-    {
-        cout << "elegebal for votting";
-    }else {
-        cout << "elegebal for not votting";
-    }
-    
-
-    
-
-}
