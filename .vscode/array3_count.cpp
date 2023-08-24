@@ -12,18 +12,18 @@ int main()
         for (i=0;i<=8;i++)
             {
               c=1;
-              for (j=i+1;k<=8;j++)
+              for (j=i+1;j<=8;j++)
                 {
                     if(a[i]==a[j])
                         {
-                            c ++;
+                            c++;
                             b[j]=0;
                         }
                 }
                 if(b[i]!=0)
                 {
                     b[i]=c;
-                    cout << "\n" << " wrete by time" << a[i] ,b[i];
+                    cout << "\n" << " wrete by time : " << a[i] << b[i];
                 }
     
             }

@@ -3,8 +3,7 @@
 using namespace std;
 
 int fibo (int);
-int
-main ()
+int main ()
 {
   int n, i, c = 0;
   cout << " Enter The n Term of Fibonacci Series : ";
@@ -17,8 +16,7 @@ main ()
     }
 }
 
-int
-fibo (int n)
+int fibo (int n)
 {
   int f;
   if (n == 0)

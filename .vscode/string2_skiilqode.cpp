@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     char a[100]="skill", b[100]="qode",c[100],i=0,j=0;
-    cout << a;
+    cout << a << "\n";
     cout << b;
     while(a[i]!='\0')
         {
@@ -18,5 +18,5 @@ int main()
             i++;
             j++;
         }c[j]='\0';
-        cout << c;
+        cout << "\n" << c;
 }
