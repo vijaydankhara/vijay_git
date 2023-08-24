@@ -1,4 +1,4 @@
-// wp. for vottinf positiv ot nagative
+// wp. ckek the number is positiv ot nagative
 
 #include <iostream>
 using namespace std;

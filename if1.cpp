@@ -14,8 +14,4 @@ int main()
     }else {
         cout << "elegebal for not votting";
     }
-    
-
-    
-
 }

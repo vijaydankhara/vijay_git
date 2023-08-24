@@ -9,16 +9,16 @@ int main()
 
      if((a>b)&&(a>c))
         {
-        cout << " is gretest :"<<a;
+        cout << " is gretest :" << a;
     }
    
     if((b>a)&&(b>c))
         {
-        cout << "is gretest :"<<b;
+        cout << "is gretest :"<< b;
     }
      if((c>a)&&(c>b))
     
      {
-        cout << "is gretest :"<<c;
+        cout << "is gretest :" << c;
     }
 }
