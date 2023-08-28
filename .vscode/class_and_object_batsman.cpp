@@ -29,7 +29,7 @@ batavg = calcavg() ;
 void displaydata()
 {
     cout << "\nBasment 4 Digit Code Number Is : " << bcode;
-    cout << "\nBasment Basment is : " << bname;
+    cout << "\nBasment name is : " << bname;
     cout << "\ninnings\t notout\truns \tbatavg";
     cout << "\n" << innings << "\t" <<  notout << "\t" << runs  << "\t" << batavg;
 }
