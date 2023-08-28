@@ -10,7 +10,7 @@ class TEST {
 
   public:
     int CALCNTR() {
-      return NoCandidate /(100 + 1);
+      return (NoCandidate / 100 + 1);
     }
 
     void SCHEDULE() {
