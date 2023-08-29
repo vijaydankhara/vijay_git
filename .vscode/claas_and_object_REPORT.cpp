@@ -46,11 +46,8 @@ int main ()
     stu.READINFO();
     stu.DISPLAYINFO();
     return 0;
-
-
-
-    
 }
+
 /*
 Enter Admission Number: 3193
 Enter Name: vijay_dankhara

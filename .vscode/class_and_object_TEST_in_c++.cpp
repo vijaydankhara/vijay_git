@@ -10,7 +10,7 @@ class TEST {
 
   public:
     int CALCNTR() {
-      return NoCandidate /(100 + 1);
+      return ( NoCandidate / 100 + 1);
     }
 
     void SCHEDULE() {
@@ -39,11 +39,11 @@ int main ()
     return 0;
 }
 /*
-// Enter Test Code: 234
-Enter Description: devlopment
-Enter Number of Candidates: 35
-Test Code: 234
-Description: devlopment      
-Number of Candidates: 35     
-Number of Centers Required: 0
+Enter Test Code: 10
+Enter Description: 100
+Enter Number of Candidates: 90
+Test Code: 10
+Description: 100
+Number of Candidates: 90     
+Number of Centers Required: 1
 */
