@@ -26,7 +26,7 @@ class BOOK {
       cout << "Enter the number of copies to be purchased: ";
       cin >> numCopies;
       float totalCost = TOTAL_COST(numCopies);
-      cout << "Total cost to be paid: $" << totalCost << endl;
+      cout << "\nTotal cost to be paid: $" << totalCost ;
     }
 };
 int main ()

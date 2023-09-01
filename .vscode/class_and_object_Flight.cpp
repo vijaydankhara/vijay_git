@@ -54,7 +54,7 @@ class Flight {
        }
        /*
 enter the FlightNumber : 2903
-enter the Destination : 1345
+enter the Destination : dubai
 enter the Distance : 2211
 enter the Fuel : 56789
 

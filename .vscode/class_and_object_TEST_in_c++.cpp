@@ -10,7 +10,7 @@ class TEST {
 
   public:
     int CALCNTR() {
-      return ( NoCandidate / 100 + 1);
+      return (NoCandidate /100 + 1);
     }
 
     void SCHEDULE() {
@@ -24,10 +24,10 @@ class TEST {
     }
 
     void DISPTEST() {
-      cout << "Test Code: " << TestCode << endl;
-      cout << "Description: " << Description << endl;
-      cout << "Number of Candidates: " << NoCandidate << endl;
-      cout << "Number of Centers Required: " << CenterReqd << endl;
+      cout << "\nTest Code: " << TestCode;
+      cout << "\nDescription: " << Description;
+      cout << "\nNumber of Candidates: " << NoCandidate ;
+      cout << "\nNumber of Centers Required: " << CenterReqd ;
     }
 };
 int main ()

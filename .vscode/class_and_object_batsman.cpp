@@ -13,15 +13,15 @@ class  batsman{
 
  public:
  void readdata(){
- cout << "Enter batsman asment 4 Digit Code Number. : ";
+ cout << "Enter Basment 4 Digit Code Number. : ";
  cin >> bcode;
  cout << "Enter  batsman  name. : ";
  cin >> bname   ;
-cout << "Enter  batsman  innings : ";
+cout << "Enter Basment innings : ";
  cin >> innings;
 cout << "Enter  batsman  notout : ";
  cin >>  notout;
- cout << "Enter  batsman  runs : ";
+ cout << "Enter Basment runs : ";
  cin >> runs ;
 batavg = calcavg() ;
 }
@@ -44,14 +44,14 @@ int main ()
 }
 
 /*
-Enter  batsman  4 Digit Code Number. : 1234
-Enter  batsman  name. : virat
-Enter  batsman  innings : 350
-Enter  batsman  notout : 19
-Enter  batsman  runs : 20598
+Enter Basment 4 Digit Code Number. : 1234
+Enter Basment name. : virat
+Enter Basment innings : 350
+Enter Basment notout : 19
+Enter Basment runs : 20598
 
- batsman  4 Digit Code Number Is : 1234
- batsman  name is : virat
+Basment 4 Digit Code Number Is : 1234
+Basment Basment is : virat
 innings  notout runs    batavg        
 350     19      20598   62
 */
