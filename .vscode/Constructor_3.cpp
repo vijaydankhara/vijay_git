@@ -10,7 +10,11 @@ class  BOOK
 
    float total_cost(int n)
     {
+<<<<<<< HEAD
        
+=======
+      
+>>>>>>> 3688d3244a9aaa2ace62fd56584b3ddf94a0c1b5
       return n * price;
     }
   public :
@@ -29,4 +33,8 @@ class  BOOK
 int main()
 {
      BOOK b(1,"FOREST_BOOK",0.75,111,83.25);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3688d3244a9aaa2ace62fd56584b3ddf94a0c1b5
