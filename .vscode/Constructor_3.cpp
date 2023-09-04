@@ -1,46 +1,32 @@
 #include<iostream>
-
 using namespace std;
-
-class BOOK
+class  BOOK
 {
-    int book_no;
-    char book_title[20];
-    float price;
+    int book_no=1;
+    char book_title[20]="FOREST_BOOK";
+    float price=0.75;
+    int numCopies=111;
+    float totalcost=83.25;
 
-    float total_cost(int n)
+   float total_cost(int n)
     {
-        //float TOTAL_COST(int N) {
+       
       return n * price;
     }
+  public :
 
-    public :
-
-    BOOK()
+   BOOK(int book_no,string book_title,float price,int numCopies,float totalcost)
     {
-      cout << "Enter Book Number: ";
-      cin >> book_no;
-      cout << "Enter Book Title: ";
-      cin.ignore();
-      cin.getline(book_title, 21);
-      cout << "Enter Price per Copy: ";
-      cin >> price;
-
+        cout <<"\n Book Number :- " << book_no;
+        cout <<"\n Book Title :- " << book_title;
+        cout <<"\n Price per Copy :- " << price;
+        cout <<"\n number of total copies :- " << numCopies ;
+        cout <<"\n Total cost to be paid :- $ " << totalcost ;
+       
     }
-
-    void PURCHASE()
-    {
-       int numCopies;
-      cout << "Enter the number of copies to be purchased: ";
-      cin >> numCopies;
-      float totalCost =total_cost(numCopies);
-      cout << "\nTotal cost to be paid: $" << totalCost ;
-    }
-
 };
 
 int main()
 {
-    BOOK b;
-    b.PURCHASE();
+     BOOK b(1,"FOREST_BOOK",0.75,111,83.25);
 }

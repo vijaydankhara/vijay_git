@@ -1,48 +1,31 @@
 #include<iostream>
-
 using namespace std;
-
-class BATSMEN
+class  BATSMAN
 {
-    int bcode,innings,notout,runs;
-    char bname [20];
-    float batavg;
+    int bcode=18,innings=275,notout=40,runs=12898;
+    char bname [20]="VIRAT_KOHLI";
+    float batavg=54.5;
+    
 
     float calcavg()
     {
         return batavg=runs/(innings-notout);
     }
+  public :
 
-    public :
-
-    BATSMEN()
+   BATSMAN(int bcode,string bname,int innings,int notout,int runs,float batavg)
     {
-       cout << "Enter Basment 4 Digit Code Number. : ";
-       cin >> bcode;
-       cout << "Enter  batsman  name. : ";
-       cin >> bname   ;
-       cout << "Enter Basment innings : ";
-       cin >> innings;
-       cout << "Enter  batsman  notout : ";
-       cin >>  notout;
-       cout << "Enter Basment runs : ";
-       cin >> runs ;
-
-       batavg = calcavg() ;
+        cout <<"\n Batsman ID Number :- " << bcode;
+        cout <<"\n Batsman Name :- " << bname;
+        cout <<"\n Batsman Innings :- " << innings;
+        cout <<"\n Batsman NotOut :- " << notout;
+        cout <<"\n Batsman Total Runs  :- " << runs;
+        cout <<"\n Batsman Average :- " << batavg;
+        batavg = calcavg();
     }
-
-   void displaydata()
-    {
-    cout << "\nbatsman  4 Digit Code Number Is : " << bcode;
-    cout << "\nbatsman  name is : " << bname;
-    cout << "\ninnings\t notout\truns \tbatavg";
-    cout << "\n" << innings << "\t" <<  notout << "\t" << runs  << "\t" << batavg;
-    }
-
 };
 
 int main()
 {
-    BATSMEN bat;
-    bat.displaydata();
+     BATSMAN b(18,"VIRAT_KOHLI",275,40,12898,45.5);
 }
