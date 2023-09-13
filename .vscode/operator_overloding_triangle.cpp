@@ -1,4 +1,4 @@
-// // operator overloding in triangle
+// operator overloding in triangle
 #include<iostream>
 using namespace std;
 
