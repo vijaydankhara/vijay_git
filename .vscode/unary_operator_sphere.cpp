@@ -1,4 +1,4 @@
-// operator overloding in unary operator find to cone area 
+// operator overloding in unary operator find to sphere area 
 #include <iostream>
 using namespace std;
 class sphere

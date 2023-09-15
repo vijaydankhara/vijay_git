@@ -1,4 +1,4 @@
-// // operator overloding in cube
+// operator overloding in cube
 #include<iostream>
 using namespace std;
 

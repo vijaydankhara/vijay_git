@@ -1,9 +1,36 @@
+// operator overloding in unary operator find to cone area 
+#include <iostream>
+using namespace std;
+class cone
+{
+int radius, height ;
 
-        return a;
-    }
+public:
+void setdata(int ra , int hei)
+{
+    radius = ra;
+    height = hei;
+}
+cone operator++(int)
+{
+    cone vd;
+    vd.radius = radius++;
+    vd.height = height++;
+    return vd;
+}
+int getdata()
+{
+    return 3.14 * radius * radius * height / 3;
+}
 };
 
-int main()
+int main ()
 {
-    VIJAY vd,vd1(10),vd2(5.5),vd3(1,5);
-    cout << "\n value of is a : " << vd1.get() << "\n";
+    cone cone1,cone2;
+
+    cone1.setdata(5,10);
+    cout << "cone 1 is :- " << cone1.getdata() << endl;
+
+    cone1++;
+    cout << "cone 2 is :- " << cone1.getdata() << endl;
+}
