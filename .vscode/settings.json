@@ -57,6 +57,7 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "files.associations": {
     "iostream": "cpp",
-    "3193.C": "cpp"
+    "3193.C": "cpp",
+    "cmath": "cpp"
   }
 }
