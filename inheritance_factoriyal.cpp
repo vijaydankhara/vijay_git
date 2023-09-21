@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Base class
+
 class Number {
 protected:
     int n;
@@ -14,7 +14,6 @@ public:
     }
 };
 
-// Derived class
 class Factorial : public Number {
 public:
     int vijay() {
@@ -30,5 +29,5 @@ int main() {
     Factorial fact;
     fact.getNumber();
     int ans = fact.vijay();
-    cout << "Factorial of " << '!' << '=' << ans << endl;
+    cout << "Factorial of "  << '!' << '=' << ans << endl;
 }
