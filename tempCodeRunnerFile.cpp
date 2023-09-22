@@ -1,1 +1,2 @@
-cout << j;
+
+        cout << "people can speak marathi..." << endl;
