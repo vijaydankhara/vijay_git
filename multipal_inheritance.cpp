@@ -1,4 +1,4 @@
-// india in multiple inheritance
+// cricket  in multiple inheritance
 #include <iostream>
 using namespace std;
 

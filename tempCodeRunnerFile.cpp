@@ -1,2 +1,2 @@
 
-        cout << "people can speak marathi..." << endl;
+    bol.batting();
