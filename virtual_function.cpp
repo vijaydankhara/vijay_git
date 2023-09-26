@@ -4,18 +4,18 @@
 #include <iostream>
 using namespace std;
 
-class Base 
+class Base
 {
-    public:
-    virtual void showPrint()  // virtual function 
+public:
+    virtual void showPrint() // virtual function
     {
-        cout << "base class output print ---> " << endl;
+        cout << "Base class output print ---> " << endl;
     }
 };
 
-class Derived : public Base 
+class Derived : public Base
 {
-    public:
+public:
     void showPrint()
     {
         cout << "Derived class output print ---> " << endl;
@@ -26,11 +26,10 @@ int main()
 {
     Base a, *b;
     Derived d;
-    
+
     b = &a;
     b->showPrint();
-    
+
     b = &d;
     b->showPrint();
-    
 }
